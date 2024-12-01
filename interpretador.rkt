@@ -297,11 +297,6 @@
                 (evaluar-expresion (car cuerpo-condiciones) amb) ;; Evaluar el cuerpo de la condición
                 (loop (cdr condiciones) (cdr cuerpo-condiciones)))) ;; Continuar con las siguientes condiciones
           ])))
-      
-    
-
-    
-
     )
   )
 )
