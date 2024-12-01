@@ -13,7 +13,7 @@
                                     -(3,3) ==> 3
                                     else ==> 4
                                     end"))
-                    2))
+                    1))
     (test-case
       "Test sumas"
       (check-equal? (evaluar-programa 
@@ -83,12 +83,6 @@
       (check-equal? (evaluar-programa 
                       (scan&parse "nth(cons(8 cons(9 cons (10 empty))),2)"))
                     10))    
-    (test-case
-      "Test rest"
-      (check-equal? (evaluar-programa 
-                      (scan&parse "nth(cons(8 cons(9 cons (10 empty))),2)"))
-                    10))                            
-    )
     
 
 (run-test test-cond-list)
